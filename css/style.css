@@ -1,0 +1,47 @@
+.teilnehmer {
+    margin-bottom: 1rem;
+}
+
+.bg-grey {
+    background-color: lightgray;
+}
+
+.bg-frau {
+    background-color: #f8d6f0;
+}
+
+.bg-mann {
+    background-color: #f8f9fa;
+}
+
+.tn-header {
+    color: saddlebrown;
+    background-color: wheat;
+    padding: 0.5rem;
+}
+
+.tn-body {
+    color: gray;
+    padding: 0.5rem;
+}
+
+.tn-text {
+    padding: 0.5rem 0;
+}
+
+img {
+    float: right;
+}
+
+.error {
+    color: red;
+}
+
+.feedback {
+    background-color: #cdcdcd;
+    padding-top: 2rem;
+}
+
+#time-form-input {
+    font-weight: bold;
+}

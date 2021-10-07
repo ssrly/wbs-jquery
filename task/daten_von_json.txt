@@ -1,0 +1,31 @@
+maennlich = false
+name = Max
+vorname = Anna
+stadt = Paris
+email = test@test.de
+pic = pfad/frau.png
+kurze_info = Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+---------------------------------------------------------------
+maennlich = true
+name = Max
+vorname = Moritz
+stadt = Sylt
+email = test@test.de
+pic = pfad/mann.png
+kurze_info = Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+----------------------------------------------------------------
+maennlich = false,
+name = Mustermann
+vorname = Nadine
+stadt = St Peter Ording
+email = test@test.de
+pic = pfad/frau.png
+kurze_info = Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+---------------------------------------------------------------
+maennlich = true
+name = Schneider
+vorname = Hans
+stadt = Helgoland
+email = test@test.de
+pic = pfad/mann.png
+kurze_info = Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt

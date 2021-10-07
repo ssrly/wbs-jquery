@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- A1 HTML -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Klausur IEjQuery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <div id="main-container" class="container">
+        <h1>Klausur IEjQuery (JavaScript - jQuery - JSON)</h1>
+
+        <div class="row mb-3">
+            <!-- A2,A3 - Teilnehmer Data -->
+            <h2>Teilnehmer</h2>
+            <div id="tn-box" class="pt-3 bg-grey"></div>
+        </div>
+
+        <div class="row mb-3">
+            <!-- A4, A5 - Form -->
+            <h2>Formular</h2>
+            <form action="#" method="POST" id="form" class="bg-info col-md-6">
+                <div class="form-group my-2">
+                    <input type="text" class="form-control" id="salutation-form-input" name="salutation" placeholder="Anrede eingeben" title="Anrede" data-regex="Herr, Frau oder Divers sind erlaubt">
+                </div>
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" id="name-form-input" name="name" placeholder="Name eingeben" title="Nachname" data-regex="Buchstaben, Leerzeichen und - sind erlaubt">
+                </div>
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" id="fname-form-input" name="fname" placeholder="Vorname eingeben" title="Vorname" data-regex="Buchstaben, Leerzeichen und - sind erlaubt">
+                </div>
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" id="mail-form-input" name="mail" placeholder="E-Mail eingeben" title="E-Mail" data-regex="Ein @-Zeichen muss vorhanden sein">
+                </div>
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" id="course-form-input" name="course" placeholder="Kurs anmeldung" title="Kurs" data-regex="Javascript, PHP oder JQuery sind erlaubt">
+                </div>
+                <!-- A6 Timer -->
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" id="time-form-input" name="time">
+                </div>
+                <button type="submit" class="btn btn-success w-100 mb-2 p-3 fw-bold">Anmelden</button>
+                <button type="reset" class="btn btn-danger w-100 mb-2 p-3 fw-bold">Löschen</button>
+            </form>
+        </div>
+
+        <div class="row mt-3">
+            <p id="good-luck" class="fw-bold"><em>Viel Glück</em></p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
